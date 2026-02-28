@@ -1,0 +1,25 @@
+//Create a class Rectangle with length and width. Calculate and display the area.
+
+#include <iostream>
+using namespace std;
+
+class Rectangle{
+	private :
+		double length ;
+		double width;
+	public :
+	void setvalue(double l , double w){
+		length = l ;
+		width  = w ;
+	}
+	double area(){
+		return length * width;
+	}	
+};
+int main(){
+	Rectangle r;
+	r.setvalue(4 , 5);
+	cout<<"Area = "<<r.area();
+	
+	return 0;
+}
