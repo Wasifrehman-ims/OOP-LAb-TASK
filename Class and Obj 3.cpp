@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-
+// The same task implemented using another approach.
 class Rectangle{
 	private :
 		double length ;
@@ -22,4 +22,5 @@ int main(){
 	cout<<"Area = "<<r.area();
 	
 	return 0;
+
 }
