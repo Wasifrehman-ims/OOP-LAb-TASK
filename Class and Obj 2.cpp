@@ -18,13 +18,14 @@ int main(){
 	
 	Book b; 						// Obj created for class Book
 	cout<<"Enter Title ";	
-	getline(cin ,b.title);			// Talking "title" from user with spaces in between
+	getline(cin ,b.title);			// Taking "title" from user with spaces in between
 
 	cout<<"Enter Author ";
-	getline(cin , b.author );		// Talking "Author" from user with spaces in between
+	getline(cin , b.author );		// Taking "Author" from user with spaces in between
 	b.getinfo();					// Calling function for obj b
 	
 	
 	return 0;
 }
+
 
