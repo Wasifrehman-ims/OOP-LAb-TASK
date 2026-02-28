@@ -11,7 +11,6 @@ class Student{
 		cout<<"Name : "<<name<<endl;
 		cout<<"Id   : "<<id<<endl;
 		cout<<"Roll No : "<<rollNo<<endl;
-		
 	}
 };
 int main(){
@@ -22,4 +21,5 @@ int main(){
 	
 	s.display();
 
+	return 0;
 }
