@@ -8,6 +8,7 @@ class Rectangle{
 		double length ;
 		double width;
 	public :
+	// Setter function to assign values to private data members
 	void setvalue(double l , double w){
 		length = l ;
 		width  = w ;
@@ -24,3 +25,4 @@ int main(){
 	return 0;
 
 }
+
