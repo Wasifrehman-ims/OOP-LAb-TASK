@@ -15,9 +15,14 @@ class Student{
 };
 int main(){
 	Student s;
-	s.name = " Ali ";
-	s.id   = 567129;
-	s.rollNo = 32;
+	cout<<"Enter Student Name : ";
+	getline (cin , s.name);
+	
+	cout<<"Enter Student id : ";
+	cin>>s.id;
+	
+	cout<<"Enter Student Roll Number : ";
+	cin>>s.rollNo;
 	
 	s.display();
 
