@@ -7,6 +7,7 @@ class Car{
 		double price ;
 	
 	public:
+	//Setter Functions
 		void setbrand(string b){
 			brand = b;
 		}
@@ -16,6 +17,7 @@ class Car{
 		void setprice(double p){
 			price = p;
 		}
+		//Getter Functions
 		string getbrand(){
 			return brand;
 		}
@@ -38,4 +40,5 @@ int main(){
 	cout<<"Price : $"<<c.getprice()<<endl;
 	
 	return 0;
+
 }
