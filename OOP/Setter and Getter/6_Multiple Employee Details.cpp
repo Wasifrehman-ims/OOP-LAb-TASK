@@ -11,7 +11,7 @@ class Employee{
 	public :
 		void setter(string n, int id , double sal){
 			name = n;
-			employeeId =id ;
+			employeeId = id;
 			salary = sal;
 		}
 		string getName(){
