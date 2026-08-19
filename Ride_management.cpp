@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Base Class
 class Ride {
 public:
@@ -13,7 +12,6 @@ public:
         cout << "Ride ID: " << rideID << endl;
     }
 };
-
 // Economy Ride Class
 class EconomyRide : public Ride {
 public:
